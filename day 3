@@ -1,131 +1,232 @@
-/*#includse <iostream>
-using namespace std;
+/*
+ *  ██████╗     ██████╗ ██████╗ ██████╗ ███████╗
+ * ██╔════╝    ██╔════╝ ██╔══██╗██╔══██╗██╔════╝
+ * ██║         ██║      ██████╔╝██████╔╝███████╗
+ * ██║         ██║      ██╔═══╝ ██╔═══╝ ╚════██║
+ * ╚██████╗    ╚██████╗ ██║     ██║     ███████║
+ *  ╚═════╝     ╚═════╝ ╚═╝     ╚═╝     ╚══════╝
+ * ----------------------------------------------
+ * 🚀 16-DAY MASTERCLASS | DAY 03 (LOOPS)
+ * 👨‍🏫 INSTRUCTOR: ABHISHEK AGGARWAL
+ * ----------------------------------------------
+ */
 
-int main() {
-    for(int i= 1;i<=10;i++){
-    cout << i << " ";
-}
-return 0;
-}*/
-
-
-// #includse <iostream>
-// using namespace std;
-
-// int main() {
-//     int i = 1;
-//     while(i <= 10) {
-//         cout<< i << " ";
-//         i++;
-//     }
-//     return 0;
-// }
-
-// #includse <iostream>
-// using namespace std;
-
-// int main() {
-//     int i = 10;
-//     while(i>=1) {
-//         cout << i <<" ";
-//         i--;
-//     }
-//     return 0;
-// }
-
-
-// #includse <iostream>
-// using namespace std;
-
-// int main() {
-//     int i =1;
-//     do {
-//         cout << i <<' ';
-//         i++;
-//     }while (i<=10);
-//     return 0;
-// }
-//     }
-    
-    
-    
-// #includse <iostream>
-// using namespace std;
-
-// int main() {
-//     int i =10;
-//     do{
-//         cout << i <<" ";
-//         i--;
-//     }while(i>=1);
-//     return 0;
-// }
-// }
-
-
-// #includse <iostream>
-// using namespace std;
-
-// int main() {
-//     int n;
-//     cin>>n;
-//     int fact = 1;
-//     for (int i =n;i>= 1;i--)
-//     fact = fact*i;
-// }
-// cout << fact;
-// return 0;
-// }
+// ==============================================
+// 💎 PROBLEM 01: ASCENDING FOR LOOP 📈
+// 📝 Task: Print numbers from 1 to 10
+// ==============================================
 
 // #include <iostream>
-//  using namespace std;
+// using namespace std;
 
-//  int main() {
+// int main() {
+//      for(int i = 1; i <= 10; i++) {
+//          cout << i << " ";
+//      }
+//      return 0;
+// }
+
+// ==============================================
+// 💎 PROBLEM 02: DESCENDING FOR LOOP 📉
+// 📝 Task: Print numbers from 10 to 1
+// ==============================================
+
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+//      for(int i = 10; i >= 1; i--){
+//          cout << i << " ";
+//      }
+//      return 0;
+// }
+
+// ==============================================
+// 💎 PROBLEM 03: ASCENDING WHILE LOOP ➰
+// 📝 Task: Print 1 to 10 using while condition
+// ==============================================
+
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+//      int i = 1;
+//      while(i <= 10) {
+//          cout << i << " ";
+//          i++;
+//      }
+//      return 0;
+// }
+
+// ==============================================
+// 💎 PROBLEM 04: DESCENDING WHILE LOOP ➰
+// 📝 Task: Print 10 to 1 using while condition
+// ==============================================
+
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+//      int i = 10;
+//      while (i >= 1) {
+//          cout << i << " ";
+//          i--;
+//      }
+//      return 0;
+// }
+
+// ==============================================
+// 💎 PROBLEM 05: ASCENDING DO-WHILE 🔃
+// 📝 Task: Print 1 to 10 using do-while
+// ==============================================
+
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+//      int i = 1;
+//      do {
+//          cout << i << " ";
+//          i++;
+//      } while(i <= 10);
+//      return 0;
+// }
+
+// ==============================================
+// 💎 PROBLEM 06: DESCENDING DO-WHILE 🔃
+// 📝 Task: Print 10 to 1 using do-while
+// ==============================================
+
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+//      int i = 10;
+//      do {
+//          cout << i << " ";
+//          i--;
+//      } while(i >= 1);
+//      return 0;
+// }
+
+// ==============================================
+// 💎 PROBLEM 07: FACTORIAL CALCULATOR ❗
+// 📝 Task: Calculate n! using a product loop
+// ==============================================
+
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+//      int n;
+//      cin >> n;
+//      int fact = 1;
+    
+//      for(int i = n; i >= 1; i--) {
+//          fact = fact * i;
+//      }
+//      cout << fact;
+//      return 0;
+// }
+
+// ==============================================
+// 💎 PROBLEM 08: FIBONACCI SERIES 🌿
+// 📝 Task: Generate the first N terms of the sequence
+// ==============================================
+
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+//      int n;
+//      cin >> n;
+//      int c;
+    
+//      int a = 0;
+//      int b = 1;
+    
+//      for(int i = 0; i < n; i++) {
+//          cout << a << " ";
+//          c = a + b;
+//          a = b;
+//          b = c;
+//      }
+//      return 0;
+// }
+
+// ==============================================
+// 💎 PROBLEM 09: PRIME NUMBER CHECKER 🔢
+// 📝 Task: Verify if a number has only two divisors
+// ==============================================
+
+// #include <iostream>
+// using namespace std;
+
+// int main() {
 //      int n;
 //      cin >> n;
 //      bool isPrime = true;
-     
-//      if(n < 2) {
+    
+//      if(n < 2){
 //          isPrime = false;
-//      }else {
-//          for (int i =2 ; i<n ; i++){
+//      } else {
+//          for(int i = 2; i < n; i++) {
 //              if(n % i == 0){
 //                  isPrime = false;
 //                  break;
 //              }
-//              }
 //          }
-//          if(isPrime){
-//              cout << "Prime NUumber";
-//          } else {
-//              cout << "Not a Prime Number";
-//          }
-//          return 0;
 //      }
+//      if(isPrime){
+//          cout << "Prime Number";
+//      } else {
+//          cout << "Not a Prime Number";
+//      }
+//      return 0;
+// }
+
+// ==============================================
+// 💎 PROBLEM 10: SMARTPHONE UNLOCK 🔓
+// 📝 Task: Force correct PIN entry to continue
+// ==============================================
 
 // #include <iostream>
 // using namespace std;
 
-// int main () {
-//     int password;
-//     do {
-//         cout << "Enter the password...";
-//         cin >> password ;
-//     }while(password != 1234);
-//     cout << "Phone unlocked...";
-//     return 0;
+// int main() {
+//      int password;
+//      do {
+//          cout << "Enter the password...";
+//          cin >> password;
+//      } while(password != 1234);
+//      cout << "Phone unlocked!...";
+    
+//      return 0;
 // }
 
-// #include <iostream>
-// using namespace std ;
+// ==============================================
+// 💎 PROBLEM 11: WATER JAR FILLER 🫙
+// 📝 Task: Keep adding water until 500ml is reached
+// ==============================================
 
-// int main (){
-//     int currentWater = 100;
-//     int add;
-//     while(currentWater < 500){
-//         cout<< "Glass has" << currentWater <<"ml. and how much ?";
-//         cin >> add;
-//         currentWater = currentWater + add;
-//     }
-//     cout << "Glass is full with water:" << currentWater <<"ml";
-// }
+#include <iostream>
+using namespace std;
+
+int main() {
+    int currentWater = 0;
+    int add;
+    while(currentWater < 500){
+        cout << "Glass has " << currentWater << "ml. How much to add? ";
+        cin >> add;
+        currentWater = currentWater + add;
+    }
+    cout << "Glass is full with water: " << currentWater << "ml" << endl;
+    
+    return 0;
+}
+
+/*
+ * ----------------------------------------------
+ * ✅ END OF DAY 03 CODEBASE
+ * ----------------------------------------------
+ */
